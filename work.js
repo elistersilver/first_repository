@@ -5,10 +5,9 @@ let arrLen = arr.length;
 for (let i = 0; i < arrLen; i++) {
 
 if(arr[i] % 2 == 0) {
-let x = arr[i];
+var arr2 = arr.splice(i, 1, 3);
+console.log(arr);}
 
-
-console.log(x);}
 }
 
 
